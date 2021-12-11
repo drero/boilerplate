@@ -1,4 +1,4 @@
-import {getAllByRole, render, screen} from '@testing-library/react'
+import { render, screen} from '@testing-library/react'
 
 import Main from '.'
 
@@ -13,6 +13,5 @@ describe('<Main />', () => {
     expect(
       screen.getByRole('heading', { name: /react avançado/i })
     ).toBeInTheDocument()
-
   })
 })
