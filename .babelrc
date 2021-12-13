@@ -3,9 +3,9 @@
     [
       "babel-plugin-styled-components",
       {
-        "ssr": false
+        "ssr": true
       }
     ]
   ],
-  "presets": ["next/babel", "@babel/preset-typescript"],
+  "presets": ["next/babel", "@babel/preset-typescript"]
 }
